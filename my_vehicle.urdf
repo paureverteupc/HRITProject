@@ -29,10 +29,9 @@
       <material name="black"/>
     </visual>
   </link>
-  <joint name="right_front_wheel_joint" type="revolute">
-    <axis xyz="0 0 1"/>
-    <limit effort="1000.0" lower="0.0" upper="0.548" velocity="0.5"/>
+  <joint name="right_front_wheel_joint" type="continuous">
     <parent link="frame"/>
+    <axis xyz="0 0 1"/>
     <child link="right_front_wheel"/>
     <origin rpy="1.57 0 0" xyz="0.4 -0.25 -0.2"/>
   </joint>
@@ -46,15 +45,14 @@
       <material name="black"/>
     </visual>
   </link>
-  <joint name="right_back_wheel_joint" type="revolute">
-    <axis xyz="0 0 1"/>
-    <limit effort="1000.0" lower="0.0" upper="0.548" velocity="0.5"/>
+  <joint name="right_back_wheel_joint" type="continuous">
     <parent link="frame"/>
+    <axis xyz="0 0 1"/>
     <child link="right_back_wheel"/>
     <origin rpy="1.57 0 0" xyz="-0.4 -0.25 -0.2"/>
   </joint>
 
-  <link name="left_front_wheel">
+  <link name="left_front_wheel"> 
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0.05"/>
       <geometry>
@@ -63,10 +61,9 @@
       <material name="black"/>
     </visual>
   </link>
-  <joint name="left_front_wheel_joint" type="revolute">
-    <axis xyz="0 0 1"/>
-    <limit effort="1000.0" lower="0.0" upper="0.548" velocity="0.5"/>
+  <joint name="left_front_wheel_joint" type="continuous">
     <parent link="frame"/>
+    <axis xyz="0 0 1"/>
     <child link="left_front_wheel"/>
     <origin rpy="1.57 0 0" xyz="0.4 0.35 -0.2"/>
   </joint>
@@ -80,10 +77,9 @@
       <material name="black"/>
     </visual>
   </link>
-  <joint name="left_back_wheel_joint" type="revolute">
-    <axis xyz="0 0 1"/>
-    <limit effort="1000.0" lower="0.0" upper="0.548" velocity="0.5"/>
+  <joint name="left_back_wheel_joint" type="continuous">
     <parent link="frame"/>
+    <axis xyz="0 0 1"/>
     <child link="left_back_wheel"/>
     <origin rpy="1.57 0 0" xyz="-0.4 0.35 -0.2"/>
   </joint>
