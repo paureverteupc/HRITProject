@@ -1,2 +1,2 @@
 # HRITProject
-This is shit
+This is always a pleasure to work
