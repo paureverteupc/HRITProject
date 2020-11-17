@@ -30,7 +30,7 @@
     </visual>
   </link>
   <joint name="right_front_wheel_joint" type="revolute">
-    <axis xyz="0 1 0"/>
+    <axis xyz="0 0 1"/>
     <limit effort="1000.0" lower="0.0" upper="0.548" velocity="0.5"/>
     <parent link="frame"/>
     <child link="right_front_wheel"/>
@@ -47,7 +47,7 @@
     </visual>
   </link>
   <joint name="right_back_wheel_joint" type="revolute">
-    <axis xyz="0 1 0"/>
+    <axis xyz="0 0 1"/>
     <limit effort="1000.0" lower="0.0" upper="0.548" velocity="0.5"/>
     <parent link="frame"/>
     <child link="right_back_wheel"/>
@@ -64,7 +64,7 @@
     </visual>
   </link>
   <joint name="left_front_wheel_joint" type="revolute">
-    <axis xyz="0 1 0"/>
+    <axis xyz="0 0 1"/>
     <limit effort="1000.0" lower="0.0" upper="0.548" velocity="0.5"/>
     <parent link="frame"/>
     <child link="left_front_wheel"/>
@@ -81,7 +81,7 @@
     </visual>
   </link>
   <joint name="left_back_wheel_joint" type="revolute">
-    <axis xyz="0 1 0"/>
+    <axis xyz="0 0 1"/>
     <limit effort="1000.0" lower="0.0" upper="0.548" velocity="0.5"/>
     <parent link="frame"/>
     <child link="left_back_wheel"/>
